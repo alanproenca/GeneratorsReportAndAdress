@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GeneratorsReport</string>
+    <string name="button1">"\" Relatório Geradores "</string>
+    <string name="report_description">Relatório de Manutenção Preventiva - Geradores</string>
+    <string name="edit_un_client">UN Cliente</string> <string name="location">Local </string>
+    <string name="edit_group">Grupo</string>
+    <string name="edit_BP" >BP</string>
+    <string name="edit_OM">OM</string>
+    <string name="edit_date">Data</string>
+    <string name="un_client">UN Cliente</string>
+    <string name="group">Grupo</string>
+    <string name="BP">BP</string>
+    <string name="OM">OM</string>
+    <string name="date">Data</string>
+    <string name="received">Cliente recepicionou</string>
+    <string name="partnerName">Nome Colaborador Habilitado</string>
+
+</resources>
