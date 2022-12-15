@@ -15,7 +15,9 @@
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/sabesp_logo">
+            android:src="@drawable/sabesp_logo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp">
 
         </ImageView>
 
@@ -24,6 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
+            android:layout_marginTop="5dp"
             android:layout_marginBottom="1dp"
             android:text="@string/report_description"
             android:textStyle="bold"
@@ -38,43 +41,65 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:layout_marginBottom="1dp">
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            >
 
             <EditText
                 android:id="@+id/edit_un_client"
-                android:layout_width="wrap_content"
+                android:layout_width="24dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="30dp"
-                android:layout_marginEnd="30dp"
-                android:layout_marginBottom="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="2dp"
                 android:layout_weight="1"
-                android:hint="@string/un_client" />
+                android:hint="@string/un_client"
+                android:inputType="text"
+                android:maxLength="4"
+                android:textFontWeight="5"
+                android:textSize="12dp"
+                />
 
             <EditText
                 android:id="@+id/edit_location"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="30dp"
-                android:layout_marginEnd="30dp"
-                android:layout_marginBottom="40dp"
-                android:layout_weight="1"
-                android:hint="@string/location" />
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="3dp"
+                android:layout_weight="300"
+
+                android:hint="@string/location"
+                android:gravity="center_horizontal"
+                android:textFontWeight="5"
+                android:autoSizeTextType="uniform"
+                android:maxLength="16"
+                android:inputType="text"
+
+                />
 
             <EditText
                 android:id="@+id/group"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="30dp"
-                android:layout_marginEnd="30dp"
-                android:layout_marginBottom="40dp"
-                android:layout_weight="1"
-                android:hint="@string/group" />
+                android:layout_marginStart="150dp"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="10"
+                android:gravity="center_horizontal"
+                android:hint="@string/group"
+                android:inputType="text"
+                android:maxLength="2"
+                android:textFontWeight="5" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            >
 
             <EditText
                 android:id="@+id/edit_BP"
@@ -84,7 +109,8 @@
                 android:layout_marginEnd="30dp"
                 android:layout_marginBottom="40dp"
                 android:layout_weight="1"
-                android:hint="@string/BP" />
+                android:hint="@string/BP"
+                android:inputType="number"/>
 
             <EditText
                 android:id="@+id/edit_OM"
@@ -94,7 +120,8 @@
                 android:layout_marginEnd="30dp"
                 android:layout_marginBottom="40dp"
                 android:layout_weight="1"
-                android:hint="@string/OM" />
+                android:hint="@string/OM"
+                android:inputType="number"/>
 
             <EditText
                 android:id="@+id/edit_date"
@@ -104,8 +131,10 @@
                 android:layout_marginEnd="30dp"
                 android:layout_marginBottom="40dp"
                 android:layout_weight="1"
-                android:hint="@string/date" />
+                android:hint="@string/date"
+                android:inputType="date"/>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
