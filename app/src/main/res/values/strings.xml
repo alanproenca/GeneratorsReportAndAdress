@@ -16,9 +16,9 @@
     <string name="edit_client">Cliente</string>
     <string name="date">Data</string>
     <string name="received">Cliente recepicionou</string>
-    <string name="partnerName">Nome Colaborador Habilitado</string>
+    <string name="partnerName">Nome Colaborador GEN e ENERGY</string>
     <string name="equipe_gen">Os colaboradores estão uniformizados e identificados?</string>
-    <string name="edit_period"></string>
+    <string name="edit_period">Data</string>
     <string name="period">Periodicidade</string>
     <string name="gen_energy">GEN  ENERGY</string>
     <string name="yesOrno">SIM  NÃO</string>
